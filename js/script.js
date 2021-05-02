@@ -21,7 +21,7 @@
 
     var showLoading = function (selector) {
         var html = "<div class='text-center'>";
-        html += "<img src='images/Infinity-1s-200px.svg'></div>";
+        html += "<img src='images/Infinity-1s-200px.svg' height=100px width=100px></div>";
         insertHtml(selector, html);
     };
 
